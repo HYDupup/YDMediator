@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		07E5B0244EEE7B4B590DC994 /* Pods-YDMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-YDMediator_Example/Pods-YDMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1FEF1032A18DC42E54BEE2D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1FEF1032A18DC42E54BEE2D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3EE04290CC24E1BC49C37F7E /* Pods_YDMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YDMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,10 +61,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		955E1BF6F0AADD042FDEE1CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		955E1BF6F0AADD042FDEE1CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9646C20E6966F6F6298693B7 /* Pods-YDMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDMediator_Tests/Pods-YDMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C62BA87232FFECA507CE76D4 /* Pods-YDMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-YDMediator_Example/Pods-YDMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAC86F2EBC9C2BF3171DE934 /* YDMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDMediator.podspec; path = ../YDMediator.podspec; sourceTree = "<group>"; };
+		CAC86F2EBC9C2BF3171DE934 /* YDMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDMediator.podspec; path = ../YDMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E406679BB08A668538B3B313 /* Pods-YDMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDMediator_Tests/Pods-YDMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F231B3F68D58B1529DB20222 /* Pods_YDMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				9646C20E6966F6F6298693B7 /* Pods-YDMediator_Tests.debug.xcconfig */,
 				E406679BB08A668538B3B313 /* Pods-YDMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

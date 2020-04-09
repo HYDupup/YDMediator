@@ -1,0 +1,6 @@
+framework module Pods_YDMediator_Example {
+  umbrella header "Pods-YDMediator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
